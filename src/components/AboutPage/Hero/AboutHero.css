@@ -16,7 +16,7 @@
     background-color: black;
     background-image: url('/src/assets/About/Hero/about1.png');
     background-size:cover;
-    /* animation: fadein_scalel ease-in-out ; */
+    animation: fadein_scalel ease-in-out ;
     animation-timeline: view();
     animation-range-start:1vw ;
 }
@@ -49,13 +49,14 @@
 @keyframes fadein_scalel {
     100%{
         opacity: 0;
-        background-position: 50% 100%;
+        background-position: 50% 0%;
 
     }
     0%,50%{
         opacity: 1;
-        background-position: 50% 0%;
-
+    }
+    0%{
+        background-position: 50% 100%;
     }
 }
 .iam,.jdb,.tagline{
