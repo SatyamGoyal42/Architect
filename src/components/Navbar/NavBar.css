@@ -4,12 +4,6 @@
     box-sizing: border-box;
     text-align: center;
 }
-.navbar-button-group{
-    display: flex;
-    width: 38%;
-    justify-content: space-evenly;
-    align-items: center;
-}
 .navbar{
     position: fixed;
     z-index: 10000;
@@ -17,6 +11,13 @@
     display: flex;
     justify-content: space-between;
 }
+.navgroup{
+    display: flex;
+    width: 38%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .JualDB{
     margin: .6rem 2rem;
     color: #B38C3F;

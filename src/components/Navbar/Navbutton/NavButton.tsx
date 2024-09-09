@@ -5,7 +5,7 @@ type NBprops = {
 }
 const NavButton = (prop : NBprops) => {
   return (
-    <div className='navbar-button'>
+    <div className='navbar_button'>
       <div>{prop.title}</div>
     </div>
   )

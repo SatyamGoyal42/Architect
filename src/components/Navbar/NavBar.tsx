@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <div className='navbar'>
         <div className='JualDB'> JualDB</div>
-      <div className='navbar-button-group'>
+      <div className='navgroup'>
       <NavButton title='Home'/>
       <NavButton title='About'/>
       <NavButton title='Projects'/>

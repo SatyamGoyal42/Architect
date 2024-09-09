@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-align: center;
 }
-.navbar-button{
+.navbar_button{
     font-size: 1.5rem;
     margin: .3rem auto;
     width: 7rem;
@@ -16,8 +16,8 @@
     transition: all 250ms 0s ease-in-out;
     
 }
-.navbar-button:hover{
-    color: white !important; 
+.navbar_button:hover{
+    color: #fff !important; 
     margin: .3rem auto;
     width: 13.5rem;
     border-radius: 3rem;

@@ -1,0 +1,23 @@
+*{
+    margin :0;
+    padding :0;
+    box-sizing: border-box;
+    align-items: center;
+    color: #B38C3F;
+    font-size: 2vw;
+}
+.individual_cred{
+    display: flex;
+}
+.title{
+    color: rgba(132, 60, 20, 1);
+}
+.credList{
+    margin: auto;
+    width :37%;
+    display: flex;
+    /* background-color: black; */
+    flex-direction: column;
+    gap:.7vw;
+    align-items: flex-start;
+}
